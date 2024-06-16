@@ -143,7 +143,7 @@ public class StreamPractice {
 		System.out.println(le);
 		
 		//27 fibonacci series
-		Stream.iterate(new int[] {0,1}, x->new int[] {x[1],x[0]+x[1]}).limit(10).map(x->x[0]).forEach(n->System.out.print(" "+n));
+		Stream.iterate(new int[] {0,1}, x->new int[] {x[1],x[0]+x[1]}).limit(120).map(x->x[0]).forEach(n->System.out.print(" "+n));
 		
 		
 		
